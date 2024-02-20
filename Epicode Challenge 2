@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrazione app musicale</title>
+    <style></style>
+  </head>
+  <body
+    style="
+      background-image: url(https://images.pexels.com/photos/7130555/pexels-photo-7130555.jpeg?cs=srgb&dl=pexels-codioful-%28formerly-gradienta%29-7130555.jpg&fm=jpg);
+    "
+  >
+    <h1 style="text-align: center; color: purple">
+      Registrazione Music Player
+    </h1>
+    <img
+      src="https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Music-PNG/Music_Notes_PNG_Clip_Art.png?m=1507172110"
+      style="
+        display: block;
+        height: 300px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+      "
+      alt="Logo app musicale"
+    />
+    <form onsubmit="alert('Registrazione inviata!')">
+      <div style="text-align: center">
+        <input type="text" placeholder="Il tuo nome" />
+      </div>
+      <div style="text-align: center">
+        <input type="text" placeholder="Il tuo cognome" />
+      </div>
+      <div style="text-align: center">
+        <input type="email" placeholder="Il tuo indirizzo email" />
+      </div>
+      <div style="text-align: center">
+        <input type="password" placeholder="Scegli una password" />
+      </div>
+      <div style="text-align: center">
+        <input type="password" placeholder="Conferma password" />
+      </div>
+      <div style="text-align: center">
+        <input type="date" />
+      </div>
+      <div style="text-align: center">
+        <input type="number" placeholder="Il tuo cellulare" />
+      </div>
+      <div>
+        <fieldset style="height: 110px; width: 300px; margin: auto">
+          <legend>Scegli i tuoi interessi musicali</legend>
+          <div>
+            <input type="checkbox" id="Pop" value="Pop" />
+            <label for="Pop">Pop</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Rock" value="Rock" />
+            <label for="Rock">Rock</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Metal" value="Metal" />
+            <label for="Metal">Metal</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Country" value="Country" />
+            <label for="Country">Country</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Rap" value="Rap" />
+            <label for="Rap">Rap</label>
+          </div>
+        </fieldset>
+      </div>
+      <div style="text-align: center">
+        <input type="radio" id="Uso" value="Uso" />
+        <label for="Uso">Accettazione Termini e Condizioni</label>
+      </div>
+      <div style="text-align: center; margin-top: 20px">
+        <button style="border-radius: 50px; background-color: #c8a2c8; height: 80px; width: 120px;" type="submit">Invia Registrazione</button>
+      </div>
+    </form>
+  </body>
+</html>
+
+
